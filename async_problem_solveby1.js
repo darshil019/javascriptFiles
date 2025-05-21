@@ -8,12 +8,13 @@ function start(){
         {
             console.log(data) 
         }) 
-    },5000)
+    },8000)
 }
 
 function pushh(newdata,callback){
     setTimeout(()=>{
         arrobj.push(newdata)
+        console.log("DATA ADDED")
         callback()
     },6000)
 }
