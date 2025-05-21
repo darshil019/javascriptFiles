@@ -1,5 +1,5 @@
 let arr = [1,3,4,5,6]
-let val = 31
+let val = 3
 
 /*let idx = arr.findIndex((val1)=>{
     return val==val1
